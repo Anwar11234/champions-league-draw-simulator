@@ -72,7 +72,7 @@ def display(groups):
         groups[key].sort(key = lambda x: x[1])
         print("GROUP" , chr(key + 65))
         for t in groups[key]:
-            print(t[0] , t[1])
+            print(t[0])
 
         print("############################")
 display(groups)
